@@ -27,6 +27,12 @@ html, body {
     top: 18px;
 }
 
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
 .bottom-middle {
     position: absolute;
     text-align:center;
@@ -35,6 +41,8 @@ html, body {
 
 .content {
     text-align: center;
+    margin-left:30px;
+    margin-right:30px
 }
 
 .title {
@@ -53,4 +61,12 @@ html, body {
 
 .m-b-md {
     margin-bottom: 30px;
+}
+
+.title-small {
+    font-size: 30px;
+}
+
+.content-small {
+    font-size: 20px
 }
