@@ -41,8 +41,6 @@ html, body {
 
 .content {
     text-align: center;
-    margin-left:30px;
-    margin-right:30px
 }
 
 .title {
@@ -69,4 +67,9 @@ html, body {
 
 .content-small {
     font-size: 20px
+}
+
+.me {
+    margin-left:30px;
+    margin-right:30px
 }
