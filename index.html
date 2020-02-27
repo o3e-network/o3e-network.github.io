@@ -1,31 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>O3E Network</title>
+        <style>
+            body {
+                min-width: 1200px;
+            }
 
-<!DOCTYPE html>
-<html lang="zh-CN">
+            .blink {
+                color: green;
+                animation: blink 1s linear infinite;
+            }
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>O3E Network</title>
-    <link href="https://fonts.googleapis.com/css?family=Kanit:100|Roboto:500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/style.css"  type="text/css" >
-</head>
+            @keyframes blink {
+                0% {
+                    opacity: 1;
+                }
 
-<body>
-    <div class="flex-center position-ref full-height">
-        <div class="top-right links">
-            <a href="https://o3e.net/about.html">About</a>
-            <a href="http://mail.o3e.net/">Webmail</a>
-            <a href="https://o3e.net/contact.html">Contact</a>
+                100% {
+                    opacity: 0;
+                }
+            }
+
+            #assbbs {
+                width: 200px;
+                height: 120px;
+                background: red;
+                animation: moving 10s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes moving {
+                0% {
+                    left: calc(100% - 250px);
+                    top: 0%;
+                    background: red;
+                    text-align: right;
+                }
+
+                30% {
+                    left: 60%;
+                    top: 70%;
+                }
+
+                50% {
+                    left: 80%;
+                    top: 50%;
+                    background: yellow;
+                    color: black;
+                }
+
+                65% {
+                    left: 70%;
+                    top: 40%;
+                    background: blue;
+                    text-align: left;
+                }
+
+                80% {
+                    left: 75%;
+                    top: 60%;
+                    background: green;
+                }
+
+                100% {
+                    left: calc(100% - 250px);
+                    top: 0%;
+                    background: red;
+                    text-align: right;
+                }
+            }
+
+            #github {
+                animation: rotate 10s linear infinite;
+            }
+
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg)
+                }
+
+                to {
+                    transform: rotate(359deg)
+                }
+            }
+
+            .heart:before {
+                content: "";
+                position: absolute;
+                top: -50px;
+                left: -90px;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: #FFCC99;
+            }
+
+            .heart:after {
+                content: "";
+                position: absolute;
+                top: -50px;
+                left: 40px;
+                width: 150px;
+                height: 150px;
+                background-color: #CC9966;
+                border-radius: 50%;
+            }
+
+            .heart {
+                top: 80px;
+                left: 50%;
+                width: 100px;
+                height: 80%;
+                background-color: #842B00;
+            }
+        </style>
+    </head>
+    <body bgcolor="#D1E9E9">
+        <b>【GIAO】</b>
+        进入域名邮箱&nbsp;&nbsp;&nbsp;
+        <a href="http://mail.o3e.net">
+            (<span style="color:#FFFF37;">WebMail</span>
+            )
+        </a>
+        <div style="color:#CE0000;">
+            <b>警告！官网尚在测试研究，请勿用于重要场合，一切后果自行承担。</b>
         </div>
-        <div class="content">
-            <div class="title m-b-md">
-                O3E Network
-            </div>
-        </div>
-        <div class="bottom-middle links">
-            <a href="">Copyright &copy; 2019 O3E Network</a>
-        </div>
-    </div>
-</body>
-
+        <hr/>
+        <h1>
+            娱乐<span style="color:red;">搞</span>
+            <span style="color:blue;">机</span>
+            玩安卓，<span style="color:darkorange;">找DroidBeta</span>
+            ！
+        </h1>
+        <h2 class="blink">沙雕在线 无聊智选</h2>
+        <p>
+            <span style="font-size:36px;">QQ：</span>
+            <input value="277211897" style="border:0;width:500px;font-size:36px;" onclick="this.select();this.setSelectionRange(0,99999);"/>
+            <br/>
+            <span style="font-size:36px;">TG：</span>
+            <input value="https://t.me/droidbeta" style="border:0;width:500px;font-size:36px;" onclick="this.select();this.setSelectionRange(0,99999);"/>
+        </p>
+        <p>（点击即可全选，复制联系方式）</p>
+        <p style="background:purple;color:Coral;" href="https://qm.qq.com/cgi-bin/qm/qr?k=Vea0P2L68gE6YTaKzejW3Bxn6bm-V512&authKey=HYJO9E/dAqb8oExtK6spC+Nte28NiDZ49SzuT0lYN8AuYCX4x4bxhw==">
+            注意：
+            <span style="color:#00BFFF;">
+                <u href="https://qm.qq.com/cgi-bin/qm/qr?k=Vea0P2L68gE6YTaKzejW3Bxn6bm-V512&authKey=HYJO9E/dAqb8oExtK6spC+Nte28NiDZ49SzuT0lYN8AuYCX4x4bxhw==">进群直接py</u>
+            </span>
+        </p>
+        <hr/>
+        <a class="heart" href="http://www.o3e.net" target="_blank" style="display:block;position:absolute;color:yellowgreen;font-size:50px;text-align:center;text-decoration:none;">
+            <br>
+            <br>
+            O<br/>
+            3<br/>
+            E<br/>
+        </a>
+        <a href="https://assbbs.com/" target="_blank" style="color:GoldenRod ;display:block;position:absolute;bottom:30px;left:60px;width:60px;font-size:26px;padding:20px;text-align:center;z-index:9;">
+            白<br/>
+            嫖<br/>
+            C<br/>
+            大<br/>
+        </a>
+        <a id="github" style="display:block;position:absolute;margin:50px 0 0 260px;width:300px;height:150px;background-color:pink;color:#666;text-decoration:none;font-size:36px;font-weight:bold;text-align:center;z-index:9;" href="https://www.github.com" target="_blank">
+            GayHub<br/>全球最大同性恋交友网站
+        </a>
+        <a id="assbbs" href="https://assbbs.com/" target="_blank" style="display:block;position:absolute;color:white;text-decoration:none;font-weight:bold;padding:16px;z-index:9;">
+            <div style="text-align:center;color:white;font-size:36px;margin-bottom:20px;">屌丝论坛</div>
+            性感C大<br/>在线发帖
+        </a>
+        <a href="https://assbbs.com/" target="_blank" style="display:block;position:absolute;top:6px;right:6px;width:480px;color:#FFD306;text-decoration:none;">买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买买</a>
+        <a href="https://assbbs.com/" target="_blank" style="display:block;position:absolute;left:230px;bottom:6px;width:400px;color:#A8FF24;text-decoration:none;">CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2 CN2</a>
+    </body>
 </html>
