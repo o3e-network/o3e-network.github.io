@@ -566,6 +566,59 @@
                 transform: translate(1.3px, 1px) rotate(-0.5deg);
             }
         }
+		/*allox*/
+		.allox{ 
+    font-size: 50px;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FF512F;
+    font-weight: 700;
+    text-shadow: 0px 0px 7px #ffd800;
+    background-image: linear-gradient(90deg, #ffd800 0%, #ff512f 100%, #fff);
+    animation: glow-animation 2s infinite linear;
+    color: #FFC0CB;
+    box-sizing: border-box;
+    vertical-align: inherit;
+	position: absolute;
+	left: 70%;
+	top: 70%;
+	transform: translateY(-50%);
+	z-index: 999;
+	text-decoration: none;
+	box-shadow: none;
+	transition: box-shadow .33s ease-out;
+	border: 0.5em solid transparent;
+	border-radius: 2em;
+}
+@keyframes glow-animation{
+    0%{filter:hue-rotate(-360deg)}
+    100%{filter:hue-rotate(360deg)}
+}
+.allox:hover{
+    text-decoration: none;
+	//box-shadow: inset 0 0.5em 0 0 currentColor;
+	box-shadow: 0 0.5em 1em 0 currentColor;
+}
+.heart-gt {
+    content: "";
+    position: absolute;
+    top: 80%;
+	transform: translateY(38px);
+	z-index:-1;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    //background-color: #CC9966;
+    border-radius: 50%;
+	animation: radius-animation 3s infinite;
+}
+@keyframes radius-animation{
+	0%{background-color: #842B00}
+	75%{background-color: #f88}
+	100%{background-color: #842B00}
+}
+/*allox*/
     </style>
 </head>
 
@@ -650,6 +703,8 @@
         Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec
         Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec
         Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec Nksec</a>
+		<a class="allox" rel="next" href="https://vu.qnid.cc">白嫖在线浏览</a>
+		<a class="heart-gt" href></a>
 </body>
 
 </html>
